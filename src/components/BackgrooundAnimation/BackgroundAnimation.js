@@ -373,7 +373,7 @@ const BackgroundAnimation = () => (
       }}
     >
       <img
-        src="/images/maiku.jpg"
+        src="/images/avtar.jpg"
         alt="mayank"
         style={{
           display: "flex",

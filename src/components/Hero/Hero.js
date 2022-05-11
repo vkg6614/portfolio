@@ -17,13 +17,13 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        <h1 style={{ color: "magenta" }}>{`Hi, I am Mayank Diwakar`}</h1>
+        <h1 style={{ color: "magenta" }}>{`Hi, I am Vikas`}</h1>
       </SectionText>
       <WritingEffect />
       <Button
         onClick={() =>
           window.open(
-            "https://drive.google.com/file/d/12sSuhzXRU8cTSPBk4DL9WxauvkLbHNKz/view",
+            "https://drive.google.com/drive/folders/1BhNjPV_hv74In3FRwd2yQbliDYeYXTna?usp=sharing",
             "_blank"
           )
         }

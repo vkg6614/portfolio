@@ -77,8 +77,7 @@ export const Input = styled.input`
 `;
 export const ButtonDiv = styled.div`
   width: 100%;
-  color:blue;
-  
+  color: blue;
 `;
 export const Submit = styled.button`
   background: #e50914;

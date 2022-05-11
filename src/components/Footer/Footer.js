@@ -28,13 +28,11 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:+91-9986842358">+91-9457113871</LinkItem>
+          <LinkItem href="tel:+91-9986842358">+91-8950950225</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:mail2mayankdiwakar@gmail.com">
-            mail2mayankdiwakar@gmail.com
-          </LinkItem>
+          <LinkItem href="mailto:vkg6614@gmail.com">vkg6614@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <Contact />
@@ -43,19 +41,16 @@ const Footer = () => {
           <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/Mayank0303" target="_blank">
+          <SocialIcons href="https://github.com/vkg6614/" target="_blank">
             <AiFillGithub size="3rem" />
           </SocialIcons>
           <SocialIcons
-            href="https://linkedin.com/in/mayankdiwakar03"
+            href="https://www.linkedin.com/in/vikas-820001201/"
             target="_blank"
           >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons
-            href="https://twitter.com/MaikuMaybe"
-            target="_blank"
-          >
+          <SocialIcons href="https://twitter.com/vkg6614" target="_blank">
             <AiFillTwitterCircle size="3rem" />
           </SocialIcons>
         </SocialContainer>
