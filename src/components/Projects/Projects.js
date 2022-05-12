@@ -1,12 +1,12 @@
 import React from "react";
-import {
-  DiReact,
-  DiFirebase,
-  DiMongodb,
-  DiNodejs,
-  DiCss3,
-  DiJavascript,
-} from "react-icons/di";
+// import {
+//   DiReact,
+//   DiFirebase,
+//   DiMongodb,
+//   DiNodejs,
+//   DiCss3,
+//   DiJavascript,
+// } from "react-icons/di";
 import {
   BlogCard,
   CardInfo,
@@ -49,7 +49,7 @@ const Projects = () => (
                 return (
                   <div style={{ textAlign: "center" }}>
                     <TechIcons key={i} tag={tag} />
-                    <div>{tag}</div>
+                    <p>{tag}</p>
                   </div>
                 );
               })}

@@ -2,17 +2,17 @@ import styled from "styled-components";
 
 export const Img = styled.img`
   width: 100%;
-  height: 110%;
+  height: 100%;
   object-fit: cover;
   overflow: hidden;
 `;
 
 export const GridContainer = styled.section`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   padding: 3rem;
   place-items: center;
-  column-gap: 2rem;
+  gap: 2rem;
   row-gap: 3rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
@@ -42,6 +42,7 @@ export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
   color: #9cc9e3;
+
   padding: 0.5rem 0;
   font-size: ${(props) => (props.title ? "3rem" : "2rem")};
 `;
@@ -57,7 +58,7 @@ export const Hr = styled.hr`
 export const Intro = styled.div`
   width: 170px;
   margin: 0 auto;
-  color: #dce3e7;
+  color: green;
   font-family: "Droid Serif", serif;
   font-size: 13px;
   font-style: italic;
